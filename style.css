@@ -14,8 +14,8 @@
   margin: 0 1rem;
 }
 @media (max-width: 825px) {
-  .navbar {
-    width: 100%;
+  #navbar {
+    width: 80%;
   }
 }
 
@@ -25,7 +25,7 @@
 
 @media (max-width: 825px) {
   #main-doc {
-    width: 100%;
+    width: 90%;
   }
 }
 
