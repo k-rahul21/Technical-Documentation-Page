@@ -1,0 +1,23 @@
+.nav-link {
+  text-decoration: none;
+  display: flex;
+  padding: 0.2rem;
+  border: 1px solid #000;
+  margin: 0.5rem;
+  color: #ffb319;
+}
+
+header {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.syntax {
+  background-color: #ffe194;
+  padding: 0.7rem 1.5rem;
+}
