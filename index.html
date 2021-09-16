@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
-    <div class="main-body"> 
+    <div class="main-body">
       <nav id="navbar">
         <header>JS Documentation</header>
         <a href="#Introduction" class="nav-link">Introduction</a>
@@ -19,123 +18,126 @@
         <a href="#Function" class="nav-link">Function</a>
       </nav>
 
-      <main id="main-doc"></main>
-      <section class="main-section">
-        <header id="Introduction">Introduction</header>
-        <p>
-          JavaScript is a cross-platform, object-oriented scripting language. It
-          is a small and lightweight language. Inside a host environment (for
-          example, a web browser), JavaScript can be connected to the objects of
-          its environment to provide programmatic control over them.
-        </p>
-        <p>
-          JavaScript contains a standard library of objects, such as Array,
-          Date, and Math, and a core set of language elements such as operators,
-          control structures, and statements. Core JavaScript can be extended
-          for a variety of purposes by supplementing it with additional objects;
-          for example:
-        </p>
-        <div class="syntax">
+      <main id="main-doc">
+        <section class="main-section">
+          <header id="Introduction">Introduction</header>
           <p>
-            function greetMe(yourName) { alert("Hello " + yourName); }
-            greetMe("World");
+            JavaScript is a cross-platform, object-oriented scripting language.
+            It is a small and lightweight language. Inside a host environment
+            (for example, a web browser), JavaScript can be connected to the
+            objects of its environment to provide programmatic control over
+            them.
           </p>
-        </div>
-      </section>
-
-      <section class="main-section">
-        <header id="JavaScript">JavaScript</header>
-        <p>
-          Client-side JavaScript extends the core language by supplying objects
-          to control a browser and its Document Object Model (DOM). For example,
-          client-side extensions allow an application to place elements on an
-          HTML form and respond to user events such as mouse clicks, form input,
-          and page navigation.
-        </p>
-        <div class="syntax">
           <p>
-            if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
-            defined
+            JavaScript contains a standard library of objects, such as Array,
+            Date, and Math, and a core set of language elements such as
+            operators, control structures, and statements. Core JavaScript can
+            be extended for a variety of purposes by supplementing it with
+            additional objects; for example:
           </p>
-        </div>
-        <p>
-          Server-side JavaScript extends the core language by supplying objects
-          relevant to running JavaScript on a server. For example, server-side
-          extensions allow an application to communicate with a database,
-          provide continuity of information from one invocation to another of
-          the application, or perform file manipulations on a server.
-        </p>
-        <div class="syntax">
-          <p>if (true) { var x = 5; } console.log(x); // 5</p>
-        </div>
-      </section>
+          <div class="syntax">
+            <p>
+              function greetMe(yourName) { alert("Hello " + yourName); }
+              greetMe("World");
+            </p>
+          </div>
+        </section>
 
-      <section class="main-section">
-        <header id="Variables">Variables</header>
-        <p>
-          In computer programming, a global variable is a variable with global
-          scope, meaning that it is visible (hence accessible) throughout the
-          program, unless shadowed. The set of all global variables is known as
-          the global environment or global state.
-        </p>
-        <p>
-          JavaScript has function scope: Each function creates a new scope.
-          Scope determines the accessibility (visibility) of these variables.
-          Variables defined inside a function are not accessible (visible) from
-          outside the function.
-        </p>
-      </section>
-
-      <section class="main-section">
-        <header id="Loop">Loop</header>
-        <p>Loops offer a quick and easy way to do something repeatedly.</p>
-        <p>
-          You can think of a loop as a computerized version of the game where
-          you tell someone to take X steps in one direction, then Y steps in
-          another. For example, the idea "Go five steps to the east" could be
-          expressed this way as a loop:
-        </p>
-        <div class="syntax">
+        <section class="main-section">
+          <header id="JavaScript">JavaScript</header>
           <p>
-            for (let step = 0; step < 5; step++) { // Runs 5 times, with values
-            of step 0 through 4. console.log('Walking east one step'); }
+            Client-side JavaScript extends the core language by supplying
+            objects to control a browser and its Document Object Model (DOM).
+            For example, client-side extensions allow an application to place
+            elements on an HTML form and respond to user events such as mouse
+            clicks, form input, and page navigation.
           </p>
-        </div>
-        <p>
-          There are many different kinds of loops, but they all essentially do
-          the same thing: they repeat an action some number of times. (Note that
-          it's possible that number could be zero!)
-        </p>
-        <p>
-          The various loop mechanisms offer different ways to determine the
-          start and end points of the loop. There are various situations that
-          are more easily served by one type of loop over the others.
-        </p>
-        <p>The statements for loops provided in JavaScript are:</p>
-        <ul>
-          <li>for statement</li>
-          <li>do...while statement</li>
-          <li>while statement</li>
-          <li>labeled statement</li>
-          <li>break statement</li>
-          <li>continue statement</li>
-          <li>for...in statement</li>
-        </ul>
-      </section>
+          <div class="syntax">
+            <p>
+              if (true) { let y = 5; } console.log(y); // ReferenceError: y is
+              not defined
+            </p>
+          </div>
+          <p>
+            Server-side JavaScript extends the core language by supplying
+            objects relevant to running JavaScript on a server. For example,
+            server-side extensions allow an application to communicate with a
+            database, provide continuity of information from one invocation to
+            another of the application, or perform file manipulations on a
+            server.
+          </p>
+          <div class="syntax">
+            <p>if (true) { var x = 5; } console.log(x); // 5</p>
+          </div>
+        </section>
 
-      <section class="main-section">
-        <header id="Function">Function</header>
-        <p>
-          Functions are one of the fundamental building blocks in JavaScript. A
-          function in JavaScript is similar to a procedure—a set of statements
-          that performs a task or calculates a value, but for a procedure to
-          qualify as a function, it should take some input and return an output
-          where there is some obvious relationship between the input and the
-          output. To use a function, you must define it somewhere in the scope
-          from which you wish to call it.
-        </p>
-      </section>
-    </main>
-</div>   
+        <section class="main-section">
+          <header id="Variables">Variables</header>
+          <p>
+            In computer programming, a global variable is a variable with global
+            scope, meaning that it is visible (hence accessible) throughout the
+            program, unless shadowed. The set of all global variables is known
+            as the global environment or global state.
+          </p>
+          <p>
+            JavaScript has function scope: Each function creates a new scope.
+            Scope determines the accessibility (visibility) of these variables.
+            Variables defined inside a function are not accessible (visible)
+            from outside the function.
+          </p>
+        </section>
+
+        <section class="main-section">
+          <header id="Loop">Loop</header>
+          <p>Loops offer a quick and easy way to do something repeatedly.</p>
+          <p>
+            You can think of a loop as a computerized version of the game where
+            you tell someone to take X steps in one direction, then Y steps in
+            another. For example, the idea "Go five steps to the east" could be
+            expressed this way as a loop:
+          </p>
+          <div class="syntax">
+            <p>
+              for (let step = 0; step < 5; step++) { // Runs 5 times, with
+              values of step 0 through 4. console.log('Walking east one step');
+              }
+            </p>
+          </div>
+          <p>
+            There are many different kinds of loops, but they all essentially do
+            the same thing: they repeat an action some number of times. (Note
+            that it's possible that number could be zero!)
+          </p>
+          <p>
+            The various loop mechanisms offer different ways to determine the
+            start and end points of the loop. There are various situations that
+            are more easily served by one type of loop over the others.
+          </p>
+          <p>The statements for loops provided in JavaScript are:</p>
+          <ul>
+            <li>for statement</li>
+            <li>do...while statement</li>
+            <li>while statement</li>
+            <li>labeled statement</li>
+            <li>break statement</li>
+            <li>continue statement</li>
+            <li>for...in statement</li>
+          </ul>
+        </section>
+
+        <section class="main-section">
+          <header id="Function">Function</header>
+          <p>
+            Functions are one of the fundamental building blocks in JavaScript.
+            A function in JavaScript is similar to a procedure—a set of
+            statements that performs a task or calculates a value, but for a
+            procedure to qualify as a function, it should take some input and
+            return an output where there is some obvious relationship between
+            the input and the output. To use a function, you must define it
+            somewhere in the scope from which you wish to call it.
+          </p>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
